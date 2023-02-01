@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <style type="text/css">
+            .item{
+                transition: .35s;
+                cursor: pointer;
+            }
+
+            .container:hover > :not(:hover){
+                opacity: .4;
+                transform: scale(0.9);
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="item">1</div>
+            <div class="item">2</div>
+            <div class="item">3</div>
+            <div class="item">4</div>
+        </div>
+    </body>
+</html>
